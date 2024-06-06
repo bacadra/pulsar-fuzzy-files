@@ -1,20 +1,5 @@
 # fuzzy-files
 
-<p align="center">
-  <a href="https://github.com/bacadra/pulsar-fuzzy-files/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-fuzzy-files?style=for-the-badge&label=Latest&color=blue" alt="Latest">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-fuzzy-files/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-fuzzy-files?style=for-the-badge&color=blue" alt="OpenIssues">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-fuzzy-files/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-fuzzy-files?style=for-the-badge&color=blue" alt="Language">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-fuzzy-files/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-fuzzy-files?style=for-the-badge&color=blue" alt="Licence">
-  </a>
-</p>
-
 ![fuzzy-files](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
 The Path list is a window for navigating through files in open projects. It allows you to open a file inside the Pulsar editor, open externally or insert a file path in various formats. The package is designed as replacement of built-in `fuzzy-finder`.
@@ -27,32 +12,32 @@ To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/pa
 
 In the `atom-workspace` space, the following commands are available:
 
-* `fuzzy-files:toggle` or `fuzzy-finder:toggle-file-finder`: (default `Ctrl-P`) opens the path list.
+- `fuzzy-files:toggle` or `fuzzy-finder:toggle-file-finder`: (default `Ctrl-P`) opens the path list.
 
 In the `path-list` view, the following keymap is available:
 
-* `Enter`: opens the selected file in Pulsar or changes the query if it is a directory.
-* `Alt-Enter`: opens the selected file externally.
-* `Ctrl-Enter`: shows the given file in a file manager.
-* `Alt-Delete`: moves a path to the OS-specific trash location.
-* `Alt-Left`: opens the selected file by splitting to the left.
-* `Alt-Right`: opens the selected file by splitting to the right.
-* `Alt-Up`: opens the selected file by splitting upwards.
-* `Alt-Down`: opens the selected file by splitting downwards.
-* `Alt-V Alt-P`: inserts the project path of the selected file.
-* `Alt-V Alt-A`: inserts the absolute path of the selected file.
-* `Alt-V Alt-R` or `Alt-V`: inserts the relative path of the selected file to the opened file.
-* `Alt-V Alt-N`: inserts the name of the selected file.
-* `Alt-C Alt-P`: copies the project path of the selected file.
-* `Alt-C Alt-A`: copies the absolute path of the selected file.
-* `Alt-C Alt-R` or `Alt-C`: copies the relative path of the selected file to the opened file.
-* `Alt-C Alt-N`: copies the name of the selected file.
-* `Alt-D`: move file to trash.
-* `Alt-0`: changes the separator in the insert to the system default (does not hide the view).
-* `Alt-/`: changes the separator in the insert to `/` (does not hide the view).
-* `Alt-\`: changes the separator in the insert to `\` (does not hide the view).
-* `Alt-Q`: changes the query to the project file path of the selected item (does not hide the view).
-* `Alt-S`: changes the query to the selection (does not hide the view).
+- `Enter`: opens the selected file in Pulsar or changes the query if it is a directory.
+- `Alt-Enter`: opens the selected file externally.
+- `Ctrl-Enter`: shows the given file in a file manager.
+- `Alt-Delete`: moves a path to the OS-specific trash location.
+- `Alt-Left`: opens the selected file by splitting to the left.
+- `Alt-Right`: opens the selected file by splitting to the right.
+- `Alt-Up`: opens the selected file by splitting upwards.
+- `Alt-Down`: opens the selected file by splitting downwards.
+- `Alt-V Alt-P`: inserts the project path of the selected file.
+- `Alt-V Alt-A`: inserts the absolute path of the selected file.
+- `Alt-V Alt-R` or `Alt-V`: inserts the relative path of the selected file to the opened file.
+- `Alt-V Alt-N`: inserts the name of the selected file.
+- `Alt-C Alt-P`: copies the project path of the selected file.
+- `Alt-C Alt-A`: copies the absolute path of the selected file.
+- `Alt-C Alt-R` or `Alt-C`: copies the relative path of the selected file to the opened file.
+- `Alt-C Alt-N`: copies the name of the selected file.
+- `Alt-D`: move file to trash.
+- `Alt-0`: changes the separator in the insert to the system default (does not hide the view).
+- `Alt-/`: changes the separator in the insert to `/` (does not hide the view).
+- `Alt-\`: changes the separator in the insert to `\` (does not hide the view).
+- `Alt-Q`: changes the query to the project file path of the selected item (does not hide the view).
+- `Alt-S`: changes the query to the selection (does not hide the view).
 
 ## Autocomplete
 
@@ -68,6 +53,6 @@ The `Preserve last search` config option is used from the `command-palette` pack
 
 The `autocomplete-paths` and `path-list` can display icons for files and directories. The [file-icons](https://github.com/file-icons/atom) package is required for this functionality.
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
 If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
